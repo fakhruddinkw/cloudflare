@@ -5,6 +5,7 @@ Copy or Fork this repo.
 install dependencies: `npm install`
 
 To start the server use `npx wrangler dev`
+
 This will allow you to test your Worker locally during development.
 You will now be able to go to http://localhost:8787 to see your Worker running. 
 Any changes you make to your code will trigger a rebuild, 
