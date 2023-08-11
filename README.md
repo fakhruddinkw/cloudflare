@@ -25,3 +25,12 @@ To verify if you are logged in, run: `npx wrangler whoami`
 
 Wrangler is a Command line tool for developing cloudflare workers. It allows you to build and test workers
 from your own environment, for more information head over to: https://github.com/cloudflare/workers-sdk
+
+After deploying your code, head over to: dash.cloudflare.com
+In the side navigation pannel, click on: Workers & pages -> Overview. 
+You will see your worker there: 
+![starter](https://github.com/fakhruddinkw/cloudflare/assets/85249044/830a2a17-b5fc-42cb-951b-4eb1357d3b19)
+
+Click on your worker, under the preview, you will see the domain on which your worker is hosted.
+Click on logs->real time logs-> Begin real time logs. This will help you with debugging.
+
